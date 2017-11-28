@@ -15,7 +15,8 @@ def translate(request):
 
     for word in input_text.split():
         if word[:2] in ('sh', 'th', 'tr', 'pl', 'gr', 'bl', 'cr', 'cl',
-                        'sl', 'ph', 'ch', 'dr', 'pr', 'br', 'fr'):
+                        'sl', 'ph', 'ch', 'dr', 'pr', 'br', 'fr', 'gl',
+                        'sc', 'st', 'sw', 'fl', 'dj'):
             translation += word[2:]
             translation += '-'
             translation += word[:2]
