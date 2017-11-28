@@ -30,4 +30,5 @@ def translate(request):
             translation += word[0]
             translation += 'ay '
 
-    return render(request, 'translate.html')
+    return render(request, 'translate.html',
+                  {'input': input_text, 'translation': translation})
