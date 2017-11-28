@@ -1,6 +1,5 @@
 """Create page views for url routes."""
 
-from django.http import HttpResponse
 from django.shortcuts import render
 
 
