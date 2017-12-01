@@ -6,7 +6,7 @@
 
 {% for post in posts.all %}
 
-<h3>{{ post.title }}</h3>
+<h3>{{ post.id }}</h3>
 
 {% if post.image %}
 <img src="{{ post.image.url }}" />
