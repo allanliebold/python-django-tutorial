@@ -32,3 +32,8 @@ def translate(request):
 
     return render(request, 'translate.html',
                   {'input': input_text, 'translation': translation})
+
+
+def about(request):
+    """View for about url."""
+    return render(request, 'about.html')
